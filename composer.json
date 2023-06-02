@@ -18,7 +18,7 @@
                 "Wendelulhoa\\LaravelMpdfAnalize\\LaravelMpdfAnalizeServiceProvider"
             ],
             "aliases": {
-                "PDF": "Wendelulhoa\\LaravelMpdfAnalize\\Facades\\LaravelMpdfAnalize"
+                "PDFANALIZE": "Wendelulhoa\\LaravelMpdfAnalize\\Facades\\LaravelMpdfAnalize"
             }
         }
     }
