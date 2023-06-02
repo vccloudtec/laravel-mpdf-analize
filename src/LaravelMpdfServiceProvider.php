@@ -5,7 +5,7 @@ namespace Wendelulhoa\LaravelMpdfAnalize;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\ServiceProvider;
 
-class LaravelMpdfServiceProvider extends ServiceProvider
+class LaravelMpdfAnalizeServiceProvider extends ServiceProvider
 {
 
     /**

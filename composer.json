@@ -9,16 +9,16 @@
     },
     "autoload": {
         "psr-4": {
-            "Wendelulhoa\\LaravelMpdf\\": "src/"
+            "Wendelulhoa\\LaravelMpdfAnalize\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Wendelulhoa\\LaravelMpdf\\LaravelMpdfServiceProvider"
+                "Wendelulhoa\\LaravelMpdfAnalize\\LaravelMpdfAnalizeServiceProvider"
             ],
             "aliases": {
-                "PDF": "Wendelulhoa\\LaravelMpdf\\Facades\\LaravelMpdf"
+                "PDF": "Wendelulhoa\\LaravelMpdfAnalize\\Facades\\LaravelMpdfAnalize"
             }
         }
     }
