@@ -1,6 +1,6 @@
 <?php
 
-namespace Wendelulhoa\LaravelMpdfAnalize;
+namespace Analize\LaravelMpdfAnalize;
 
 use MpdfAnalize\MpdfAnalize as Mpdf;
 use MpdfAnalize\Output\Destination;

@@ -1,9 +1,10 @@
 <?php
 
-namespace Wendelulhoa\LaravelMpdfAnalize;
+namespace Analize\LaravelMpdfAnalize;
 
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\ServiceProvider;
+use Analize\LaravelMpdfAnalize\LaravelMpdfAnalizeWrapper;
 
 class LaravelMpdfAnalizeServiceProvider extends ServiceProvider
 {
@@ -33,7 +34,7 @@ class LaravelMpdfAnalizeServiceProvider extends ServiceProvider
         );
 
         $this->app->bind('laravel-mpdf', function ($app) {
-            return new LaravelMpdfWrapper();
+            return new LaravelMpdfAnalizeWrapper();
         });
     }
 

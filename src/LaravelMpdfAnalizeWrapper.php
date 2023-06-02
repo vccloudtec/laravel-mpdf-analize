@@ -1,10 +1,11 @@
 <?php
 
-namespace Wendelulhoa\LaravelMpdf;
+namespace Analize\LaravelMpdfAnalize;
 
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\View;
-use Wendelulhoa\LaravelMpdfAnalize\LaravelMpdfAnalize as Pdf;
+use Analize\LaravelMpdfAnalize\LaravelMpdfAnalize as Pdf;
+use Analize\LaravelMpdfAnalize\LaravelMpdfAnalize;
 
 class LaravelMpdfAnalizeWrapper
 {

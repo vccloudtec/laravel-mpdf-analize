@@ -26,14 +26,14 @@ To start using Laravel, add the Service Provider and the Facade to your `config/
 ```php
 'providers' => [
     // ...
-    Wendelulhoa\LaravelMpdf\LaravelMpdfAnalizeServiceProvider::class
+    Analize\LaravelMpdf\LaravelMpdfAnalizeServiceProvider::class
 ]
 ```
 
 ```php
 'aliases' => [
     // ...
-    'PDF' => Wendelulhoa\LaravelMpdf\Facades\LaravelMpdf::class
+    'PDF' => Analize\LaravelMpdf\Facades\LaravelMpdf::class
 ]
 ```
 
@@ -222,7 +222,7 @@ You can configure the macro in the `AppServiceProvider` provider file.
 
 ```php
 //...
-use Wendelulhoa\LaravelMpdf\LaravelMpdf;
+use Analize\LaravelMpdf\LaravelMpdf;
 
 class AppServiceProvider extends ServiceProvider
 {
