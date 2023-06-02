@@ -1,5 +1,5 @@
 {
-    "name": "wendel-ulhoa/laravel-mpdf-analize",
+    "name": "analize/laravel-mpdf-analize",
     "description": "Laravel Mpdf: Using Mpdf in Laravel to generate Pdfs.",
     "keywords": ["mpdf", "pdf", "laravel"],
     "license": "MIT",
