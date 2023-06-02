@@ -43,6 +43,7 @@ Adicione o pacote MpdfAnalize para que funcione a modificação:
 
 ```
 composer require wendel-ulhoa/laravel-mpdf-analize
+composer require analize/mpdf-analize
 ```
 
 ```
