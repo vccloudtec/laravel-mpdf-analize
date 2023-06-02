@@ -8,7 +8,7 @@ Easily generate PDF files using [Laravel's Blade templates](https://laravel.com/
 Run this composer command in your laravel application:
 
 ```
-composer require carlos-meneses/laravel-mpdf
+composer require wendel-ulhoa/laravel-mpdf-analize
 ```
 
 ## Important Notes:
@@ -26,14 +26,14 @@ To start using Laravel, add the Service Provider and the Facade to your `config/
 ```php
 'providers' => [
     // ...
-    Mccarlosen\LaravelMpdf\LaravelMpdfServiceProvider::class
+    Wendelulhoa\LaravelMpdf\LaravelMpdfServiceProvider::class
 ]
 ```
 
 ```php
 'aliases' => [
     // ...
-    'PDF' => Mccarlosen\LaravelMpdf\Facades\LaravelMpdf::class
+    'PDF' => Wendelulhoa\LaravelMpdf\Facades\LaravelMpdf::class
 ]
 ```
 
@@ -222,7 +222,7 @@ You can configure the macro in the `AppServiceProvider` provider file.
 
 ```php
 //...
-use Mccarlosen\LaravelMpdf\LaravelMpdf;
+use Wendelulhoa\LaravelMpdf\LaravelMpdf;
 
 class AppServiceProvider extends ServiceProvider
 {
