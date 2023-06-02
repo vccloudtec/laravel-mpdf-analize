@@ -1,6 +1,6 @@
 <?php
 
-namespace Wendelulhoa\LaravelMpdf;
+namespace Wendelulhoa\LaravelMpdfAnalize;
 
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\ServiceProvider;

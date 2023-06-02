@@ -4,17 +4,17 @@ namespace Wendelulhoa\LaravelMpdf;
 
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\View;
-use Meneses\LaravelMpdf\LaravelMpdf as Pdf;
+use Wendelulhoa\LaravelMpdfAnalize\LaravelMpdfAnalize as Pdf;
 
-class LaravelMpdfWrapper
+class LaravelMpdfAnalizeWrapper
 {
     /**
      * @param array $config optional, default []
-     * @return LaravelMpdf
+     * @return LaravelMpdfAnalize
      */
     public function getPdf($config = [])
     {
-        return new LaravelMpdf($config);
+        return new LaravelMpdfAnalize($config);
     }
 
     /**

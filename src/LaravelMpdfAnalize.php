@@ -1,9 +1,9 @@
 <?php
 
-namespace Wendelulhoa\LaravelMpdf;
+namespace Wendelulhoa\LaravelMpdfAnalize;
 
 use MpdfAnalize\MpdfAnalize as Mpdf;
-use Mpdf\Output\Destination;
+use MpdfAnalize\Output\Destination;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Traits\Macroable;
 
@@ -13,7 +13,7 @@ use Illuminate\Support\Traits\Macroable;
  * @package laravel-mpdf
  * @author Carlos Meneses
  */
-class LaravelMpdf
+class LaravelMpdfAnalize
 {
     use Macroable;
 
@@ -24,11 +24,11 @@ class LaravelMpdf
     {
         $this->config = $config;
 
-        $defaultConfig = (new \Mpdf\Config\ConfigVariables())->getDefaults();
+        $defaultConfig = (new \MpdfAnalize\Config\ConfigVariables())->getDefaults();
         $fontDirs      = $defaultConfig['fontDir'];
         $tempDir       = $defaultConfig['tempDir'];
         
-        $defaultFontConfig = (new \Mpdf\Config\FontVariables())->getDefaults();
+        $defaultFontConfig = (new \MpdfAnalize\Config\FontVariables())->getDefaults();
         $fontData          = $defaultFontConfig['fontdata'];
         $configGlobal      = [
             'mode'              => $this->getConfig('mode'),

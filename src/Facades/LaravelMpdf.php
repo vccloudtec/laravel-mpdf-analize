@@ -3,7 +3,7 @@
 namespace Wendelulhoa\LaravelMpdf\Facades;
 
 use Illuminate\Support\Facades\Facade as BaseFacade;
-use Wendelulhoa\LaravelMpdf\LaravelMpdf as Pdf;
+use Wendelulhoa\LaravelMpdf\LaravelMpdfAnalize as Pdf;
 
 /**
  * Class LaravelMpdf
@@ -16,7 +16,7 @@ use Wendelulhoa\LaravelMpdf\LaravelMpdf as Pdf;
  * @method static Pdf chunkLoadFile(string $separator, string $file, ?array $config = [])
  * @method static Pdf chunkLoadView(string $separator, string $view, ?array $data = [], ?array $mergeData = [], ?array $config = [])
  */
-class LaravelMpdf extends BaseFacade
+class LaravelMpdfAnalize extends BaseFacade
 {
 
     /**
