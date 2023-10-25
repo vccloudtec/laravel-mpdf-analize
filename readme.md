@@ -8,7 +8,7 @@ Easily generate PDF files using [Laravel's Blade templates](https://laravel.com/
 Run this composer command in your laravel application:
 
 ```
-composer require wendel-ulhoa/laravel-mpdf-analize
+composer require analize/laravel-mpdf-analize
 ```
 
 ## Important Notes:
