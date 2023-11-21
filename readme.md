@@ -36,7 +36,7 @@ To start using Laravel, add the Service Provider and the Facade to your `config/
     'PDFANALIZE' => Analize\LaravelMpdf\Facades\LaravelMpdf::class
 ]
 ```
-
+ 
 ## Objetivo desse fork foi a remoção da página em branco após o índice que criava segue passo a passo.
 
 Adicione o pacote MpdfAnalize para que funcione a modificação:
